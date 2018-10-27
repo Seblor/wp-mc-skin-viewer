@@ -21,11 +21,13 @@
             $html .= '<script type="text/javascript" src="' . plugin_dir_url( __FILE__ ) . 'resources/main.js"></script>';
         }
 
+        $skincounter++;
+
         // Default skin (Steve)
         extract( shortcode_atts( array(
             'url' => 'https://i.imgur.com/Ip5v39f.png',
         ), $atts ) );
-        $html .= "<div id='skin_container_$skincounter++'></div><script>addSkin('$url', 'skin_container_$skincounter++')</script>";
+        $html .= "<div id='skin_container_$skincounter'></div><script>addSkin('$url', 'skin_container_$skincounter')</script>";
 
         return $html;
     }
