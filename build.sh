@@ -1,4 +1,4 @@
-mkdir dist/temp
+mkdir -p dist/temp
 cp -r src/* dist/temp/
 mkdir dist/temp/resources
 cp -r resources/* dist/temp/resources/

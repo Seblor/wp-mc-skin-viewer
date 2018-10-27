@@ -1,6 +1,8 @@
-function addSkin(url, containerId) {
+function addSkin(url, containerId, width, height) {
   let skinViewer = new skinview3d.SkinViewer({
     domElement: document.getElementById(containerId),
+    width: width,
+    height: height,
     skinUrl: url
   });
 
