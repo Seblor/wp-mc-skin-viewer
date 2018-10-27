@@ -2,9 +2,9 @@
 
     /*
     Plugin Name: MC Skin Viewer
-    Plugin URI: http://seblor.fr
-    description: test
-    Version: 0.1
+    Plugin URI: https://github.com/Seblor/wp-mc-skin-viewer
+    description: A Minecraft skin viewer for Wordpress
+    Version: 1.0
     Author: Seblor
     Author URI: http://seblor.fr
     License: GPL2
