@@ -12,3 +12,7 @@ function addSkin(url, containerId, width, height) {
   let walk = skinViewer.animation.add(skinview3d.WalkingAnimation);
   walk.speed = 1.5;
 }
+
+Array.prototype.forEach.call(document.getElementsByClassName('skin-preview-container'), function (container) {
+  addSkin(container.dataset.url, container.id, container.dataset.width, container.dataset.height);
+});
