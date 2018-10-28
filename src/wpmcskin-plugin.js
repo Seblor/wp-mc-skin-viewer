@@ -32,7 +32,7 @@
         }, {
           type: 'textbox',
           name: 'mc_link',
-          value: 'https://minecraft.net/profile/skin/remote?url=' + encodeURIComponent('https://minecraft-france.net/wp-content/uploads/2018/10/albus_dumbledore.png'),
+          value: 'https://minecraft.net/profile/skin/remote?url=' + encodeURIComponent(skinUrl),
           label: 'Link to minecraft.net',
           readonly: 1
         }],
