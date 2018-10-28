@@ -29,6 +29,12 @@
           type: 'textbox',
           name: 'height',
           label: 'Height'
+        }, {
+          type: 'textbox',
+          name: 'mc_link',
+          value: 'https://minecraft.net/profile/skin/remote?url=' + encodeURIComponent('https://minecraft-france.net/wp-content/uploads/2018/10/albus_dumbledore.png'),
+          label: 'Link to minecraft.net',
+          readonly: 1
         }],
         onsubmit: function (e) {
           // Insert content when the window form is submitted
