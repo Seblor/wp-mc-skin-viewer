@@ -32,7 +32,7 @@
         }, {
           type: 'textbox',
           name: 'mc_link',
-          value: 'https://minecraft.net/profile/skin/remote?url=' + encodeURIComponent(skinUrl),
+          value: 'https://my.minecraft.net/profile/skin/remote?url=' + encodeURIComponent(skinUrl),
           label: 'Link to minecraft.net',
           readonly: 1
         }],
