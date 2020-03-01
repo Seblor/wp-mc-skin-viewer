@@ -1,4 +1,4 @@
-# MC Ckin Viewer
+# MC Skin Viewer
 
 MC Skin Viewer is a Wordpress plugin whose purpose is to add a 3D animated render of a Minecraft skin in a wordpress article.
 
