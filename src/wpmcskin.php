@@ -33,7 +33,7 @@
             'width' => 300,
             'height' => 300
         ), $atts ) );
-        $html .= "<div id='skin_container_$skincounter' class='skin-preview-container' data-url='$url' data-width='$width' data-height='$height'></div>";
+        $html = "<div id='skin_container_$skincounter' class='skin-preview-container' data-url='$url' data-width='$width' data-height='$height'></div>";
 
         return $html;
     }
